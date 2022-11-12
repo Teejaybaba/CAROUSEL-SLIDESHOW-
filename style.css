@@ -1,0 +1,107 @@
+
+ 
+ 
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: rgba(214, 213, 213, 0.822);
+
+}
+
+.slide,.container {
+
+    margin: 3em auto;
+
+    width: 100%;
+
+    max-width: 900px;
+
+}
+
+.container {
+
+    position: relative;
+
+}
+
+.slide {
+
+    display: none;
+
+}
+
+
+
+img {
+
+    width: 100%;
+
+    box-shadow: 0 0 100px 10px;
+
+    border: 2px solid white;
+
+}
+
+button {
+
+    display: none;
+
+}
+
+
+
+p, button {
+
+    position: absolute;
+
+    top: 0%;
+
+    padding: 12px 10px;
+
+    text-align: center;
+
+    background-color: rgba(209, 202, 202, 0.822);
+
+    color: rgb(0, 0, 0);
+
+    border: none;
+
+    border-radius: 0 0 5px 0;
+
+    font-size: x-large;
+
+    font-weight: 900;
+
+    margin: 0 auto;
+
+}
+
+
+
+.left {
+
+    position: absolute;
+
+    top: 45%;
+
+    border-radius: 0 5px 5px 0;
+
+}
+
+.right {
+
+    position: absolute;
+
+    top: 45%;
+
+    right: 0%;
+
+    border-radius: 5px 0 0 5px;
+
+}
